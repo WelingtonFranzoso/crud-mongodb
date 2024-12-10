@@ -3,7 +3,7 @@
 
 # Sobre o projeto
 
-Aplicação consiste em um CRUD de usuário e endereço usando mapstruct par converter uma entity para um DTO e classes builder para construção da resposta de usuário e endereço. O banco de dados utilizado foi o PostgreSQL em um container Docker.
+Aplicação consiste em um CRUD de usuário e endereço utilizando Mapstruct para converter uma Entity para um DTO e classes builder para construção da resposta de usuário e endereço, usando um banco NoSQL.
 
 # Tecnologias utilizadas
 - Java
