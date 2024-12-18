@@ -3,22 +3,32 @@
 
 # Sobre o projeto
 
-Aplicação consiste em um CRUD de usuário e endereço utilizando Mapstruct para converter uma Entity para um DTO e classes builder para construção da resposta de usuário e endereço, usando um banco NoSQL.
+Este projeto é uma aplicação CRUD (Create, Read, Update, Delete) que gerencia usuários e seus endereços, utilizando o banco de dados NoSQL MongoDB. O objetivo principal é fornecer uma interface simples para realizar operações de CRUD sobre essas entidades. A aplicação utiliza o MapStruct para converter entre Entity e DTO, e também implementa classes Builder para construção da resposta final de usuário e endereço.
+
+# Funcionalidades
+- Cadastro de Usuário: Permite criar um novo usuário com informações básicas.
+- Cadastro de Endereço: Permite cadastrar um endereço relacionado a um usuário.
+- Listagem de Usuários: Exibe todos os usuários cadastrados.
+- Atualização de Usuário: Permite a atualização dos dados de um usuário existente.
+- Remoção de Usuário: Exclui um usuário e seus respectivos endereços.
+- Listagem de Endereços: Exibe os endereços cadastrados para um usuário específico.
+- Atualização de Endereço: Permite a atualização dos dados de um endereço associado a um usuário.
+- Remoção de Endereço: Exclui um endereço relacionado a um usuário.
 
 # Tecnologias utilizadas
-- Java
-- Spring Boot
-- Maven
-- Docker
-- Banco de dados: MongoDB
+- Java: Linguagem de programação principal.
+- Spring Boot: Framework para criação de aplicações Java.
+- Maven: Gerenciador de dependências e construção do projeto.
+- Docker: Containerização da aplicação para facilitar a execução e deployment.
+- MongoDB: Banco de dados NoSQL para persistência das informações de usuários e endereços.
 
 # Como executar o projeto
 
 ## Back end
-Pré-requisitos: 
-Java 17
-Maven
-MongoDB
+### Pré-requisitos: 
+- Java 17
+- Maven
+- MongoDB(local ou via Docker)
 
 ```bash
 # clonar repositório
